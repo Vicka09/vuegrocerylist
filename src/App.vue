@@ -64,7 +64,7 @@ const deleteGrocery = id => {
     ul {
       @apply flex flex-col items-center justify-center rounded-lg bg-greenish;
       li {
-        @apply bg-white text-background m-2 p-2 w-96 text-center;
+        @apply bg-white text-black m-2 p-2 w-96 text-center;
         &:hover {
           @apply bg-accent font-bold cursor-pointer;
         }
